@@ -17,9 +17,11 @@ const Navbar = () => {
         {/* 1st logo part  */}
         <div className="logo">
           <h2>
-            <span>T</span>hapa
-            <span>T</span>echnical
+            <span>S</span>mart
+            <span>T</span>ext
+            <span>E</span>ditor
           </h2>
+          
         </div>
 
         {/* 2nd menu part  */}
@@ -30,6 +32,7 @@ const Navbar = () => {
           <ul>
             <li>
               <NavLink to="/">Home</NavLink>
+              <h4></h4>
             </li>
             <li>
               <NavLink to="/about">about</NavLink>

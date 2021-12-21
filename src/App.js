@@ -7,8 +7,16 @@ const Home = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Subscribe to </p>
-        <h1>Thapa Technical Home Page</h1>
+      <h1> INTRODUCTION</h1>
+        <p style={{textAlign:'center',fontSize:'24px'}}>
+          This is a desktop application called Smart Text Editor.
+          It is mainly use to write personal and public notepad documents. It
+          will connect the business organizations and users within an
+          application. Where they will be able to communicate in a formal way
+          with the advanced features in it. It will store all of the user’s data
+          in the database.
+        </p>
+        
       </section>
     </>
   );
