@@ -46,7 +46,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        {/* 3rd social media links */}
+        {/* 3rd social media links
         <div className="social-media">
           <ul className="social-media-desktop">
             <li>
@@ -73,12 +73,13 @@ const Navbar = () => {
           </ul>
 
           {/* hamburget menu start  */}
-          <div className="hamburger-menu">
+          {/* <div className="hamburger-menu">
             <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
               <GiHamburgerMenu />
-            </a>
-          </div>
-        </div>
+            </a> */}
+            
+          {/* </div> */}
+        {/* </div> */} 
       </nav>
 
       {/* hero section  */}
@@ -86,6 +87,8 @@ const Navbar = () => {
         <p>Welcome to </p>
         <h1>Thapa Technical</h1>
       </section> */}
+
+      
     </>
   );
 };
