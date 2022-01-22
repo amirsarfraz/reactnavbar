@@ -3,22 +3,16 @@ import Navbar from "./components/Navbar";
 import { Switch, Route } from "react-router-dom";
 import Footer from "./components/footer";
 
+import Slider from "./components/slider";
+
 const Home = () => {
   return (
-    <>    
+    <>
+    
+       
       <Navbar />
       <section className="hero-section">
-      <h1> INTRODUCTION</h1>
-        <p style={{fontSize:'24px',marginLeft:'15%'}}>
-          This is a desktop application called Smart Text Editor.<br></br>
-          It is mainly use to write personal and public notepad documents.<br></br>
-          It will connect the business organizations and users within an<br></br>
-          application. Where they will be able to communicate in a formal way<br></br>
-          with the advanced features in it. It will store all of the user’s data<br></br>
-          in the database.Every developer wish is to develop in such a way so<br></br>
-          the application remains efficient and effective to the users.These<br></br>
-          are the basics things every developer must adhere. So, these will <br></br>
-          be our goals & objectives in order to develop an application.</p>
+      <Slider/>
       </section>
     </>
   );
@@ -101,7 +95,7 @@ const App = () => {
       </Route>
      
     </Switch>
-    <Footer /> 
+     <Footer />
     </>
     
     
