@@ -1,14 +1,16 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-padding: 80px 60px;
+padding: 30px 30px;
 background: black;
 position: absolute;
 bottom: 0;
 width: 100%;
+color: black;
 
 
-@media (max-width: 1000px) {
+
+@media (max-width: 100%) {
 	padding: 70px 30px;
 }
 `;
@@ -17,9 +19,9 @@ export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	max-width: 1000px;
+	max-width: 100%;
 	margin: 0 auto;
-	/* background: red; */
+	background: blue; 
 `
 
 export const Column = styled.div`
@@ -42,20 +44,21 @@ grid-gap: 20px;
 `;
 
 export const FooterLink = styled.a`
-color: #fff;
+color:  black;
 margin-bottom: 20px;
 font-size: 18px;
 text-decoration: none;
 
 &:hover {
-	color: green;
+	color: black;
 	transition: 200ms ease-in;
 }
 `;
 
 export const Heading = styled.p`
 font-size: 24px;
-color: #fff;
+color: black;
 margin-bottom: 40px;
 font-weight: bold;
 `;
+export default Box;

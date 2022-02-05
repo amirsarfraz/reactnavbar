@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import { Switch, Route } from "react-router-dom";
-import Footer from "./components/footer";
+import Box from "./components/Footer/FooterStyled";
 
 import Slider from "./components/slider";
 
@@ -26,7 +26,7 @@ const download = () => {
       <Navbar />
       <section className="hero-section">
         <p>Welcome to </p>
-        <h1>Thapa Technical Service Page</h1>
+        <h1>Amir Service Page ncjlk</h1>
       </section>
     </>
   );
@@ -83,7 +83,7 @@ const App = () => {
 
     
 
-      <Route path="/service">
+      <Route path="/download">
         <download />
       </Route>
 
@@ -95,7 +95,8 @@ const App = () => {
       </Route>
      
     </Switch>
-     <Footer />
+    <Box />
+     
     </>
     
     
