@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import { Switch, Route } from "react-router-dom";
 import Box from "./components/Footer/FooterStyled";
-
 import Slider from "./components/slider";
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -20,13 +20,13 @@ const Home = () => {
 
 
 
-const download = () => {
+const Download = () => {
   return (
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Welcome to </p>
-        <h1>Amir Service Page ncjlk</h1>
+        <p>setup link</p>
+        
       </section>
     </>
   );
@@ -37,13 +37,16 @@ const Contact = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>You can contect  </p>
-        <p>Salman naheed</p>
-        <p>03134155166</p>
+        <p>You can contact  </p>
+        <Link to ='#'
+        onClick={(e)=>{
+          window.location="mailto:salmannaheed@gmail.com"
+        }}
+        > 
         <p>salmannaheed@gmail.com</p>
-        <p>Amir Sarfraz</p>
-        <p>03404666752</p>
+       
         <p>amirsarfraz50@gmail.com</p>
+        </Link>
       </section>
     </>
   );
@@ -84,7 +87,7 @@ const App = () => {
     
 
       <Route path="/download">
-        <download />
+        <Download />
       </Route>
 
       <Route path="/contact">
