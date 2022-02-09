@@ -18,8 +18,6 @@ const Home = () => {
   );
 };
 
-
-
 const Download = () => {
   return (
     <>
@@ -83,11 +81,9 @@ const App = () => {
       <Route exact path="/">
         <Home />
       </Route>
-    
       <Route path="/download">
         <Download />
       </Route>
-
       <Route path="/contact">
         <Contact />
       </Route>
@@ -97,9 +93,8 @@ const App = () => {
      
     </Switch>
     <Box />
-     
-    </>
-    
+
+    </>    
     
   );
 };
